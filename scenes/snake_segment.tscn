@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://3dmc536xus4c"]
+
+[ext_resource type="Texture2D" uid="uid://cyc36aqxkmb47" path="res://assets/face.png" id="1_1sg3p"]
+
+[node name="SnakeSegment" type="Panel" groups=["segments"]]
+self_modulate = Color(1, 1, 1, 0)
+offset_right = 50.0
+offset_bottom = 50.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 50.0
+offset_bottom = 50.0
+texture = ExtResource("1_1sg3p")
