@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://da3328uj0r25a" path="res://assets/bg.png" id="2_0bbpv"]
 [ext_resource type="PackedScene" uid="uid://3dmc536xus4c" path="res://scenes/snake_segment.tscn" id="2_rarhs"]
 [ext_resource type="PackedScene" uid="uid://5xw1uo46126e" path="res://scenes/hud.tscn" id="3_0bbpv"]
-[ext_resource type="Texture2D" uid="uid://chnnbhrg178by" path="res://assets/apple.png" id="5_vcsgt"]
+[ext_resource type="Texture2D" uid="uid://bo035115vms6q" path="res://assets/btc.png" id="5_c01mt"]
 [ext_resource type="PackedScene" uid="uid://cpedu2hbkfuik" path="res://scenes/game_over_menu.tscn" id="6_c01mt"]
 
 [node name="Main" type="Node2D"]
@@ -21,7 +21,7 @@ texture = ExtResource("2_0bbpv")
 wait_time = 0.3
 
 [node name="Food" type="Sprite2D" parent="."]
-texture = ExtResource("5_vcsgt")
+texture = ExtResource("5_c01mt")
 offset = Vector2(25, 25)
 
 [node name="GameOverMenu" parent="." instance=ExtResource("6_c01mt")]
